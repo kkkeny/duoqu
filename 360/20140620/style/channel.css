@@ -1,0 +1,72 @@
+body > section:last-of-type {
+    margin-top: 0;
+    border-top: none;
+}
+.rank-tab {
+    text-align: center;
+}
+.rank-tab td {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+.rank-tab td:nth-of-type(2) {
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+.rank-tab td.current {
+    background-color: #fff;
+    border-bottom-color: #fff;
+    color: #f84c4a;
+}
+.rank-tab + div > section {
+    border: none;
+    padding-top: 0;
+}
+.rank-tab + div > section a {
+    margin: 0 !important;
+}
+.rank-tab td, .rank-tab + div > section a {
+    line-height: 2.5em;
+}
+.rank-tab + div > section a span {
+    display: inline-table;
+    width: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 0.8em;
+    color: #fff;
+    border-radius: 1em;
+}
+.rank-tab + div > section a:nth-of-type(1) span {
+    background-color: #f84c4a;
+}
+.rank-tab + div > section a:nth-of-type(2) span {
+    background-color: #f9a54a;
+}
+.rank-tab + div > section a:nth-of-type(3) span {
+    background-color: #f8c54a;
+}
+.rank-tab + div > section hr {
+    width: 92%;
+    margin: 0 auto;
+}
+.v-list {
+    width: 100%;
+    /*padding: 4% 0;*/
+}
+.v-list > a {
+    display: block;
+    padding: 0 4%;
+    line-height: 2em;
+}
+/*
+ .v-list > a:not(:first-of-type):not(:last-of-type) {
+ margin: 0.6em 0;
+ }
+ */
+.v-list > a span {
+    color: #777;
+    margin-right: 1em;
+}

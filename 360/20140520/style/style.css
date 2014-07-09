@@ -1,0 +1,342 @@
+html, body {
+    font-size: 16px;
+}
+body {
+    color: #333;
+    background-color: #eee;
+}
+body, body * {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+body > section {
+    border-bottom: 1px solid #d9d9d9;
+}
+body > section, body > nav {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4% 4%;
+    background-color: #f9f9f9;
+}
+body > div {
+    background-color: #f9f9f9;
+}
+.hidden {
+    display: none !important;
+}
+.clear {
+    clear: both;
+}
+.section {
+    margin-top: 1em;
+}
+.space-v {
+    margin-top: 4%;
+}
+.top {
+    font-size: 0px;
+    background: none;
+    border: none;
+}
+.top > a {
+    display: inline-block;
+    width: 48%;
+}
+.top > a img {
+    border-radius: 10px;
+}
+.top > a + a {
+    float: right;
+}
+body > nav {
+    height: 2.33em;
+    line-height: 2.33em;
+    padding: 0 4%;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    color: #999;
+}
+body > nav.title:nth-of-type(1) {
+    border-bottom-color: #58bc1c;
+    color: #58bc1c;
+}
+body > nav.title:nth-of-type(2) {
+    border-bottom-color: #f79906;
+    color: #f79906;
+}
+body > nav.title:nth-of-type(3) {
+    border-bottom-color: #db343b;
+    color: #db343b;
+}
+body > nav.title:nth-of-type(4) {
+    border-bottom-color: #67b7e5;
+    color: #67b7e5;
+}
+body > nav.title:nth-of-type(5) {
+    border-bottom-color: #ac88cf;
+    color: #ac88cf;
+}
+.h-list > article {
+    width: 22%;
+    margin-right: 4%;
+    float: left;
+    text-align: center;
+}
+.h-list > article:last-of-type {
+    margin-right: 0;
+}
+.h-list > article p {
+    font-size: 0.8em;
+}
+.push {
+    border: none;
+    font-size: 0;
+    padding: 4% 0 0 0;
+}
+.push.book {
+    background-color: #eee;
+    padding: 4% 4%;
+}
+.push > a {
+    display: block;
+    padding: 0 4% 4% 4%;
+    border-bottom: 1px solid #d9d9d9;
+}
+.push.book > article {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.push > a > img {
+    display: block;
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+.push.book > article > img {
+    width: 25%;
+    float: left;
+}
+.push > a > aside, .push.book > article > aside {
+    width: auto;
+    overflow: hidden;
+    font-size: 1rem;
+    padding-left: 4%;
+    position: relative;
+}
+.push.book > article > aside > a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 30%;
+    border: 1px solid #58bc1c;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.push > a > aside p:first-of-type {
+    font-size: 1.1em;
+}
+.push > a > aside p:nth-of-type(2) {
+    font-size: 0.86em;
+    color: #777;
+}
+.push > a > aside p:last-of-type {
+    font-size: 0.86em;
+    color: #a5a5a5;
+}
+.push.book > article > aside p:not(:first-of-type) {
+    font-size: 0.86em;
+    color: #666;
+}
+.push.book > article > aside p span {
+    display: inline-block;
+    text-indent: 1em;
+}
+.push.book > article > aside p:nth-of-type(4) span {
+    color: #58bc1c;
+}
+.v-list {
+    width: 100%;
+    padding: 4% 0;
+}
+.v-list > a {
+    display: block;
+    padding: 0 4%;
+    line-height: 2em;
+}
+/*
+.v-list > a:not(:first-of-type):not(:last-of-type) {
+    margin: 0.6em 0;
+}
+*/
+.v-list > a span {
+    color: #777;
+    margin-right: 1em;
+}
+.hot {
+    background: none;
+}
+.hot a {
+    display: inline-block;
+    height: 2.2em;
+    padding: 0 0.8em;
+    margin: 1% 1%;
+    line-height: 2.2em;
+    font-size: 0.86em;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+}
+.hot a:nth-of-type(1) {
+    background-color: #f7907c;
+}
+.hot a:nth-of-type(2) {
+    background-color: #e673a3;
+}
+.hot a:nth-of-type(3) {
+    background-color: #f2b579;
+}
+.hot a:nth-of-type(4) {
+    background-color: #c1d88f;
+}
+.hot a:nth-of-type(5) {
+    background-color: #6cc3a0;
+}
+.hot a:nth-of-type(6) {
+    background-color: #67b7e5;
+}
+.hot a:nth-of-type(7) {
+    background-color: #748cda;
+}
+.hot a:nth-of-type(8) {
+    background-color: #c0afd0;
+}
+.rank {
+    padding-top: 0;
+    border: none;
+}
+.rank-tab {
+    text-align: center;
+}
+.rank-tab td {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+.rank-tab td:nth-of-type(2) {
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+.rank-tab td.current {
+    background-color: #f9f9f9;
+    border-bottom-color: #f9f9f9;
+    color: #f84c4a;
+}
+.rank-tab + div > section {
+    border: none;
+    padding-top: 0;
+}
+.rank-tab + div > section a {
+    margin: 0 !important;
+}
+.rank-tab td, .rank-tab + div > section a {
+    line-height: 2.5em;
+}
+.rank-tab + div > section a span {
+    display: inline-table;
+    width: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 0.8em;
+    color: #fff;
+    border-radius: 1em;
+}
+.rank-tab + div > section a:nth-of-type(1) span {
+    background-color: #f84c4a;
+}
+.rank-tab + div > section a:nth-of-type(2) span {
+    background-color: #f9a54a;
+}
+.rank-tab + div > section a:nth-of-type(3) span {
+    background-color: #f8c54a;
+}
+.rank-tab + div > section hr {
+    width: 92%;
+    margin: 0 auto;
+}
+.desc p:not(:first-of-type) {
+    margin-top: 0.8em;
+}
+.desc p:last-of-type {
+    font-size: 0.86em;
+    color: #bcbcbc;
+}
+.type {
+    padding: 0;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: none;
+}
+.loading {
+    display: none;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #999;
+    padding: 30px 4%;
+    border: none;
+    box-sizing: content-box;
+}
+.loading span {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url(res/loading.png) center center no-repeat;
+    background-size: cover;
+    margin-right: 0.2em;
+}
+.loading.show {
+    display: block;
+}
+.loading.show span {
+    -webkit-animation-name: loading;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.link-ef {
+    background-color: #eee !important;
+}
+@media screen and (min-device-width: 720px) {
+    /*for pc*/
+    html, body {
+        font-size: 30px;
+    }
+}
+@media screen and (max-device-width: 719px) {
+    /*小屏手机*/
+    .hot a {
+        padding: 0 0.5em;
+    }
+}
+/*@formatter:off*/
+@-webkit-keyframes loading{
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
