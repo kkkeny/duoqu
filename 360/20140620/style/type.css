@@ -4,6 +4,7 @@
 .u-1 > span:last-of-type {
     float: right;
     color: #aaa;
+    font-size: 0.8em;
 }
 .u-1 > span:last-of-type span {
     color: #41bc43;
@@ -17,7 +18,7 @@ tr td:nth-of-type(2) a {
     border-right: 1px solid #e4e4e4;
 }
 td {
-    padding: 1em 0;
+    padding: 0.8em 0;
 }
 td a {
     display: block;

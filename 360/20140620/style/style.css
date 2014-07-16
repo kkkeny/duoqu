@@ -4,7 +4,7 @@ html, body {
 body {
     padding: 0 3% 3% 3%;
     color: #555;
-    background-color: #f8f8f8;
+    background-color: #eee;
 }
 body, body * {
     margin: 0;
@@ -76,7 +76,7 @@ table {
     padding: 0 0.8em;
     margin: 0 1% 1% 0;
     line-height: 2.4em;
-    font-size: 0.86em;
+    font-size: 0.8em;
     border-radius: 50px;
     color: #fff;
     text-align: center;
@@ -196,13 +196,13 @@ table {
     top: 0;
     right: 0;
     display: inline-block;
-    width: 4em;
-    height: 2em;
-    line-height: 2em;
+    width: 6em;
+    height: 3em;
+    line-height: 3em;
     border: 1px solid #3ab940;
     border-radius: 5px;
     color: #3ab940;
-    font-size: 0.53em;
+    font-size: 0.8em;
     font-weight: bolder;
     text-align: center;
     z-index: 999;

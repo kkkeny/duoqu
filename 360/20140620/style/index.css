@@ -63,7 +63,7 @@
 .type_ a {
     display: inline-block;
     float: left;
-    width: 100%;
+    width: 98%;
     height: 2.5em;
     line-height: 2.5em;
     font-size: 0.86em;
@@ -83,7 +83,7 @@
     line-height: 2.6em;
     font-size: 1.1em;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f8f8f8;
 }
 .enter_.link-ef {
     background-color: #eaeaea !important;

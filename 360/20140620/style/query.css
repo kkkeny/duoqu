@@ -17,7 +17,7 @@ body > section:first-of-type > section {
     border: 1px solid #e4e4e4;
     background-color: #fff;
     border-radius: 5px;
-    -webkit-box-shadow: inset 0px 2px 5px #999;
+    -webkit-box-shadow: inset 0px 2px 3px #999;
 }
 body > section:first-of-type form {
     display: inline-block;
@@ -25,11 +25,13 @@ body > section:first-of-type form {
 }
 body > section:first-of-type input {
     width: 100%;
+    height: 2.5em;
     font-size: 0.86em;
     line-height: 2.5em;
     text-indent: 1em;
     border: none;
     background-color: rgba(0,0,0,0);
+    vertical-align: middle;
 }
 body > section:first-of-type img {
     width: 1.2em;

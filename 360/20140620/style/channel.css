@@ -51,6 +51,8 @@ body > section:last-of-type {
 .rank-tab + div > section hr {
     width: 92%;
     margin: 0 auto;
+    border:none;
+    border-bottom:1px solid #e4e4e4;
 }
 .v-list {
     width: 100%;

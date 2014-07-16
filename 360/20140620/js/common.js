@@ -51,4 +51,25 @@ Array.prototype.slice.call(document.querySelectorAll("a.u-3")).forEach(function(
         }
     }, false);
 });
+//描述的展开和收起
+var desc = _ele('#desc')[0];
+if (desc) {
+    var full = _ele('.full')[0], short = _ele('.short')[0];
+    if (full && short) {
+        var n = 1;
+        desc.addEventListener('click', function(event) {
+            _toggleClass(full, 'hidden', true);
+            _toggleClass(short, 'hidden', true);
+            if (n % 2 != 0) {
+                _toggleClass(full, 'hidden', false);
+                _toggleClass(desc, 'open', true);
+            } else {
+                _toggleClass(short, 'hidden', false);
+                _toggleClass(desc, 'open', false);
+                n = 0;
+            }
+            n++;
+        });
+    }
+}
 //end

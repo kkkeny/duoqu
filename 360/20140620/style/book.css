@@ -38,7 +38,7 @@
     line-height: 2.5em;
     text-align: center;
     border: 1px solid #e4e4e4;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #fff;
 }
 .ad a:last-of-type {
@@ -60,6 +60,7 @@
     padding: 0;
     margin-top: -20px;
     background: url(res/icon-9.png) no-repeat center center;
+    background-size: 25px 25px;
 }
 .desc_ p {
     line-height: 1.5em;
@@ -77,4 +78,7 @@ body > p:last-of-type {
 }
 body > p:last-of-type a {
     color: #58bc1c;
+}
+#desc.open{
+    -webkit-transform: rotate(180deg);
 }
